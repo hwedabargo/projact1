@@ -1,0 +1,11 @@
+.Cardright{
+    text-align: left;
+    
+}
+#RightSide{
+    justify-content: right;
+    text-justify:distribute-all-lines;
+}
+#icon{
+    text-align: center;
+}

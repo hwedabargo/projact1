@@ -1,0 +1,9 @@
+.callcard{
+    border: 5px hidden ;
+    padding:  30px 20px ;
+    border-radius: 30px;
+    background-color: rgb(247, 244, 244);
+}
+.days{
+    text-justify:unset;
+}

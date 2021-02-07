@@ -1,0 +1,14 @@
+.CardGroup{
+    border: 5px hidden ;
+    padding:  30px 20px ;
+    border-radius: 30px;
+
+}
+.icon{
+    text-align: right;
+    margin-top: -20px;
+}
+.price{
+    text-align: left;
+    font-size: large;
+}

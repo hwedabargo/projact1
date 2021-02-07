@@ -1,0 +1,11 @@
+#fixednav{
+    position: fixed;
+      z-index: 99;
+      justify-content: space-between;
+      text-align: end;
+      width: 100%;
+      color:brown;
+     
+   }
+
+  

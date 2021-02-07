@@ -1,0 +1,28 @@
+.nav{
+   color:white;
+    text-align: center;
+}
+.FNavbar {
+   text-align: center;
+ }
+.Navbar{
+   display: flex;
+   justify-content: center;
+   color: #800e16;
+}
+.logo> h6{
+   color: #800e16;
+}
+.Carousel{
+   border-radius: 30px;
+}
+/* #fixednav{
+ position: fixed;
+   z-index: 99;
+   justify-content: space-between;
+   text-align: end;
+   width: 100%;
+} */
+
+
+ 
