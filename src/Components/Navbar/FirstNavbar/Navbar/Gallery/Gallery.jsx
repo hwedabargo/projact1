@@ -4,8 +4,8 @@ import { FaHeart , FaCartArrowDown} from 'react-icons/fa';
 import {CardGroup,Card } from "react-bootstrap";
 import "./Gallery.css";
 function Gallery(){
-      
-  
+
+
     return(
         <div>
           <br/>
@@ -26,7 +26,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 75 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -38,7 +38,7 @@ function Gallery(){
       </Card.Text>
     </Card.Body>
     <Card.Footer><small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 75 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -51,7 +51,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>  <FaCartArrowDown size="25"/> </div></small>
+      <div className="price"> price : 75 LYD</div><div className="icon" ><FaHeart size="25"/>  <FaCartArrowDown size="25"/> </div></small>
     </Card.Footer>
   </Card>
 </CardGroup>
@@ -68,7 +68,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price :9 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -81,7 +81,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 9 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -95,7 +95,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 75 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
 </CardGroup>
@@ -113,7 +113,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price :12 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -126,7 +126,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 14 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -139,7 +139,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 12 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
 </CardGroup>
@@ -156,7 +156,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price :12 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -169,7 +169,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 12 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -182,7 +182,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 12 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
 </CardGroup>
@@ -202,7 +202,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 16 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -215,7 +215,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 16 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -228,7 +228,7 @@ function Gallery(){
     </Card.Body>
     <Card.Footer>
     <small className="text-muted">
-      <div className="price"> price :</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
+      <div className="price"> price : 16 LYD</div><div className="icon"><FaHeart size="25"/>   <FaCartArrowDown size="25"/></div></small>
     </Card.Footer>
   </Card>
   <br/>

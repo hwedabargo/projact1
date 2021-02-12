@@ -15,10 +15,10 @@ const  AdminDashboard =()=>  {
     </Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="/CreatePost">Creact</Nav.Link>
+    <Nav.Link href="CreatePost">Creact</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="link-2">Read</Nav.Link>
+    <Nav.Link href="ListPost">Read</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link eventKey="link-3">Gallery</Nav.Link>

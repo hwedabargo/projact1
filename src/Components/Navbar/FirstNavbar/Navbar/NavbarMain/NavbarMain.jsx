@@ -5,14 +5,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser} from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF  , faInstagram , faSnapchat} from "@fortawesome/free-brands-svg-icons";
 import { library } from '@fortawesome/fontawesome-svg-core'
-const  NavbarMain =( login , logout ,isAuth , setIsAuth)=>{
+const  NavbarMain =( login , logout ,isAuth )=>{
     library.add(faFacebookF  ,faInstagram ,faSnapchat ,faUser); 
     return(
 
         <div>
   <Navbar id="fixednav" variant="dark" bg="dark" style={{color:"brown"}}>
     <Nav className="mr-auto">
-    <Navbar.Brand ><button onClick={()=>setIsAuth(!isAuth)}>{isAuth?'Logout':'Login'}<FontAwesomeIcon icon={['fas', 'user']} /></button></Navbar.Brand>
+    <Navbar.Brand href="AdminDashboard" ><button onClick={()=>isAuth?logout():login()}>{isAuth?'Logout':'Login'}<FontAwesomeIcon icon={['fas', 'user']} /></button></Navbar.Brand>
       <Nav.Link href="https://www.facebook.com/sugarcoffeemakecheesecak/"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></Nav.Link>
       <Nav.Link href="https://www.instagram.com/sugarcoff14/"><FontAwesomeIcon icon={['fab', 'instagram']} /></Nav.Link>
       <Nav.Link href="https://www.snapchat.com/add/coffeesugar2020"><FontAwesomeIcon icon={['fab', 'snapchat']} /></Nav.Link>
@@ -28,8 +28,8 @@ const  NavbarMain =( login , logout ,isAuth , setIsAuth)=>{
     <Nav className="mr-auto">
     <Nav >
        <Nav.Link exact to href="/">Home</Nav.Link>
-      <Nav.Link to href="updates">updates</Nav.Link>
-      <Nav.Link  to href="favorite">favorite</Nav.Link>
+      {/* <Nav.Link to href="Updates">Updates</Nav.Link>
+      <Nav.Link  to href="favorite">favorite</Nav.Link> */}
       <Nav.Link to href="Gallery">Gallery</Nav.Link>
       <Nav.Link to href="AboutUs">About us</Nav.Link>
       <Nav.Link to href="Contact">Contact</Nav.Link>
